@@ -1,0 +1,5 @@
+YouTube Data API key v3:
+
+AIzaSyBtEAwTFRXhUGsKiCibAqiXHCZGdu0qj-E
+
+https://www.googleapis.com/youtube/v3/search?part=snippet&videoEmbeddable=true&type=video&key=AIzaSyBtEAwTFRXhUGsKiCibAqiXHCZGdu0qj-E&q=tracer 7

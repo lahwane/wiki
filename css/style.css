@@ -1,0 +1,74 @@
+/* @import 'mq.css'; */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr;
+    background-color: #ff7f50;
+    gap: 10px;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff7f50;
+    padding: 0 1em;
+    
+    h1 {
+        color: black;
+        font-size: 3em;
+    }
+
+    .search-section {
+        margin-right: 4em;
+
+        input {
+            padding: 1em .5em;
+            width: 25em;
+        }
+
+        button {
+            padding: 1em .5em;
+        }
+    }
+}
+
+.video-list {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background-color: #333;
+    color: white;
+    padding: .5em;
+}
+
+.video-player {
+    grid-column: 2;
+    grid-row: 1;
+    color: white;
+    border-radius: .5em;
+    justify-items: center;
+
+    iframe {
+        border: none;
+        border-radius: .5em;
+    }
+}
+
+.wiki-results {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #f4f4f4;
+    padding: 1em;
+    border-radius: .5em;
+}
+
+
