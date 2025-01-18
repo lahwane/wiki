@@ -1,14 +1,18 @@
 @media (width < 800px) {
-    .search-section {
-        margin-right: 0;
-    }
+    header {
+        h1 {
+            font-size: 2em;
+        }
 
-    body {
-        background-color: aqua;
-    }
+        .search-section {
+            margin-right: 0;
+        }
 
-    h1 {
-        color: aqua;
+        h1 {
+            color: aqua;
+        }
     }
 
 }
+
+@media (width < 620px) {}
